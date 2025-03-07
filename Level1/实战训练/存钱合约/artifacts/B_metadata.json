@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"实战训练/存钱合约/Bank.sol": "B"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"实战训练/存钱合约/Bank.sol": {
+			"keccak256": "0x361e41b5b9d11537f45b137a4967bd5785d6a3e6ed09324c007f84cf4a02741e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d84b2eeaa96b7d0da4037b121df030b116f3bdcc455c714a54ba63b109a1c5ba",
+				"dweb:/ipfs/Qmc92qRFU1qXK1WpFkBhdkBwK6GJjJAMzstysyZbEcGwzx"
+			]
+		}
+	},
+	"version": 1
+}
