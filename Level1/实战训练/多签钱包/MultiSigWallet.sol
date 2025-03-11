@@ -6,6 +6,7 @@ contract MultiSigWallet {
     address[] public owners;
     mapping(address => bool) public isOwner;
     uint256 public required;
+
     struct Transaction {
         address to;
         uint256 value;
@@ -49,7 +50,7 @@ contract MultiSigWallet {
         require(_owners.length > 0, "owner required");
         require(
             _required > 0 && _required <= _owners.length,
-            "invalid required number of owners"
+            "invalid required number of owners" 
         );
         for (uint256 index = 0; index < _owners.length; index++) {
             address owner = _owners[index];
