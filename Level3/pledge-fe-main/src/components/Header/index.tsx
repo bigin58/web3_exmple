@@ -49,10 +49,10 @@ const Header: React.FC<IHeaderProps> = () => {
     if (chainId !== currentChainId && currentChainId === undefined) {
       setCurrentChainId(chainId);
 
-      const chainName = find(Object.values(currencyInfos), { chainId })?.chainName;
+      // const chainName = find(Object.values(currencyInfos), { chainId })?.chainName;
+      const chainName = find(Object.values(currencyInfos), { chainId })?.chainName as 'BSC_Mainnet' | 'BSC_Testnet';
       setCurrency(chainName || 'BSC_Mainnet');
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [chainId]);
   const FlexDiv = styled.div`
     display: flex;
